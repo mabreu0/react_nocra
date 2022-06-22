@@ -3,7 +3,7 @@ import React from 'react';
 const TestSetup = (props) => {
     return (
         <div>
-            <p> Testing the no cra setup with props {props.details}</p>
+            <p> Testing the no cra setup with {props.details}</p>
         </div>
     );
 };

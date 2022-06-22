@@ -11,7 +11,7 @@ const TheApp = () => {
 	return (
 		<div>
 			<p> Testing some jsx!</p>
-			<TestSetup details="some drilling props"/>
+			<TestSetup details="some drilling!"/>
 		</div>
  	);
 }
