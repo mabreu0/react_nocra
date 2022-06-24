@@ -6,7 +6,7 @@ module.exports = {
 
 	output: {
 		filename: 'App.js',
-		path: path.resolve(__dirname, '/dest')
+		path: path.resolve(__dirname, './dist') //good old unix style!
 	},
 
 	plugins: [
@@ -25,6 +25,11 @@ module.exports = {
 							presets: ['@babel/preset-env', '@babel/preset-react']
 						} 
 				}
+			},
+
+			{
+				test: /\.css$/i,
+				use : ['style-loader', 'css-loader'],
 			},
 		] //end rules array.
 	}

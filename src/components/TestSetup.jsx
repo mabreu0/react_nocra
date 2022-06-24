@@ -1,4 +1,5 @@
 import React from 'react';
+import './testSetup.css';
 
 const TestSetup = (props) => {
     return (
